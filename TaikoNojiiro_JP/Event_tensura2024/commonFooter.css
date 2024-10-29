@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+#commonPageFooter div,#commonPageFooter ul,#commonPageFooter li,#commonPageFooter p,#commonPageFooter dl,#commonPageFooter dt,#commonPageFooter dd{background-color:rgba(255,255,255,0);background-image:none;border-style:none;box-shadow:0 0 0 rgba(255,255,255,0);box-sizing:border-box;float:none;height:auto;line-height:1.2;margin:0;max-height:none;max-width:initial;min-height:0;min-width:0;padding:0;position:static;text-indent:0;width:auto}
+#commonPageFooter div:before,#commonPageFooter div:after,#commonPageFooter ul:before,#commonPageFooter ul:after,#commonPageFooter li:before,#commonPageFooter li:after,#commonPageFooter p:before,#commonPageFooter p:after,#commonPageFooter dl:before,#commonPageFooter dl:after,#commonPageFooter dt:before,#commonPageFooter dt:after,#commonPageFooter dd:before,#commonPageFooter dd:after{display:none}
+#commonPageFooter{box-sizing:border-box;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif}
+,#commonPageFooter a{text-decoration:none}
+#commonPageFooter img{-webkit-backface-visibility:hidden;backface-visibility:hidden;height:auto;max-width:100%}
+#commonPageFooter ul{font-size:0;list-style:none}
+#commonPageFooter li{list-style:none}
+
+#commonPageFooter{background-color:#3d3a39;margin:0;padding:0 20px}
+#commonPageFooter li{display:inline-block;font-size:0.75rem;vertical-align:top}
+#commonPageFooter dl{color:#fff;font-size:0.8125rem;margin:0 auto;max-width:1150px;position:relative}
+#commonPageFooter dl:after{clear:both;content:'';display:block}
+#commonPageFooter dl a{color:#fff;display:block;line-height:.8125rem;padding:0 1em}
+#commonPageFooter dt{font-weight:bold}
+#commonPageFooter dd ul{overflow:hidden;position:relative}
+#commonPageFooter dd li+li{border-left:1px solid #302e2d}
+#commonPageFooter .wrapper{background-color:#fff;color:#3d3a39;margin:0 -20px;padding:20px;position:relative;text-align:right}
+#commonPageFooter .wrapper>*{margin:0 auto;max-width:1150px}
+#commonPageFooter .wrapper a{color:#3d3a39}
+#commonPageFooter .wrapper .commonCopyright small{font-size:0.625rem}
+#commonPageFooter .logo{position:absolute}
+@media (min-width: 801px){#commonPageFooter{min-width:980px}
+#commonPageFooter a:hover{-o-opacity:.6;opacity:.6}
+#commonPageFooter .logo{left:0;margin:0 auto;max-width:1190px;padding:0 20px;right:0;top:20px;width:100%}
+#commonPageFooter .logo:after{background:url(../../shared/images/logo_am_pc.png) center center no-repeat;background-size:contain;content:'';display:block;height:60px;margin-bottom:-60px;width:79px}
+#commonPageFooter .logo img{display:none}
+#commonPageFooter dt{clear:both;float:left;padding:20px 0;width:6em}
+#commonPageFooter dd{margin-left:6em;padding:10px 0 20px}
+#commonPageFooter dd+dt:before{border-top:1px solid #302e2d;content:'';display:block;left:0;margin-top:-20px;position:absolute;right:0;width:100%}
+#commonPageFooter dd ul:before{border-left:1px solid #585554;content:'';display:block;height:100%;position:absolute;top:10px;width:0}
+#commonPageFooter dd li{margin-top:10px;margin-left:-1px}
+#commonPageFooter .wrapper li{margin-left:.5em;padding-left:.5em}
+#commonPageFooter .wrapper li+li{border-left:1px solid #e2e2e2}
+#commonPageFooter .wrapper .commonCopyright{margin-top:40px}
+}
+@media (max-width: 800px){#commonPageFooter .logo{height:70px;left:20px;max-width:80px;width:32%}
+#commonPageFooter .logo img{bottom:0;display:block;margin:auto 0;position:absolute;top:0}
+#commonPageFooter dl{margin:0 -20px}
+#commonPageFooter dt{padding:20px}
+#commonPageFooter dd{padding:0 20px 20px}
+#commonPageFooter dd+dt{border-top:1px solid #302e2d}
+#commonPageFooter dd ul{border-top:1px solid #585554;margin:0 -10px}
+#commonPageFooter dd li{margin-top:10px;margin-left:-1px}
+#commonPageFooter .wrapper{padding:0}
+#commonPageFooter .wrapper ul{background-color:#f7f8f9;padding:20px;text-align:center}
+#commonPageFooter .wrapper li a{display:inline-block;padding:10px}
+#commonPageFooter .commonCopyright{display:table;height:70px;width:100%}
+#commonPageFooter .commonCopyright small{display:table-cell;padding:0 20px 0 140px;vertical-align:middle}
+}
+@media print{#commonPageFooter dl,#commonPageFooter ul{display:none}
+#commonPageFooter .wrapper{border-top:1px solid #e2e2e2;padding-top:20px}
+}
+
+/*# sourceMappingURL=common_style.css.map */
+
