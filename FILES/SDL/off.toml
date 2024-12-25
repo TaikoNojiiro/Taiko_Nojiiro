@@ -1,0 +1,49 @@
+[amauth]
+server = "127.0.0.1"
+chassis_id = "000000000000"
+shop_id = "TAIKO NO TATSUJIN NOJIIRO"
+game_ver = "00.00"
+country_code = "JPN"
+
+[patches]
+version = "auto"
+res = { x = 1920, y = 1080 }
+windowed = false
+vsync = false
+unlock_songs = true
+
+[patches.chn00]
+demo_movie = true
+mode_collabo025 = false
+mode_collabo026 = false
+fix_language = true
+
+[patches.jp_apr_2023]
+mode_aprilfool = true
+
+[audio]
+wasapi_shared = false
+asio = false
+asio_driver = ""
+
+[card_reader]
+enabled = true
+
+[qr]
+enabled = true
+image_path = ""
+
+  [qr.data]
+  serial = ""
+  type = 0
+  song_no = []
+
+[drum]
+wait_period = 0
+
+[controller]
+analog_input = false
+
+[keyboard]
+auto_ime = false
+jp_layout = false
